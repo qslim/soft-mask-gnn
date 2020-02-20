@@ -1,0 +1,14 @@
+{
+  "dataset_name": "PROTEINS",
+  "model": "SMG",
+  "seed": 777,
+  "hyperparams": {
+    "batch_size": 128,
+    "layers": 3,
+    "hidden": 128,
+    "epochs": 201,
+    "learning_rate": 0.0005,
+    "step_size": 100,
+    "decay_rate": 0.75
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "dataset_name": "IMDB-BINARY",
+  "model": "SMG_JK",
+  "hyperparams": {
+    "batch_size": 128,
+    "layers": 2,
+    "hidden": 256,
+    "epochs": 301,
+    "learning_rate": 0.0002,
+    "step_size": 2000,
+    "decay_rate": 1.0
+  }
+}

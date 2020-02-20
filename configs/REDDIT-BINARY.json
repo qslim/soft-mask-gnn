@@ -1,0 +1,13 @@
+{
+  "dataset_name": "REDDIT-BINARY",
+  "model": "SMG_JK",
+  "hyperparams": {
+    "batch_size": 128,
+    "layers": 3,
+    "hidden": 256,
+    "epochs": 701,
+    "learning_rate": 0.0005,
+    "step_size": 2000,
+    "decay_rate": 1.0
+  }
+}

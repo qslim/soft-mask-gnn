@@ -1,0 +1,15 @@
+{
+  "dataset_name": "MUTAG",
+  "model": "SMG_JK",
+  "multi_channel": "True",
+  "seed": 777,
+  "hyperparams": {
+    "batch_size": 128,
+    "layers": 3,
+    "hidden": 128,
+    "epochs": 1001,
+    "learning_rate": 0.0005,
+    "step_size": 2000,
+    "decay_rate": 1.0
+  }
+}

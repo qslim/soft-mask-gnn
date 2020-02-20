@@ -1,0 +1,14 @@
+{
+  "target": 0,
+  "model": "SMG_JK_R",
+  "multi_channel": "True",
+  "hyperparams": {
+    "batch_size": 64,
+    "layers": 3,
+    "hidden": 64,
+    "epochs": 501,
+    "learning_rate": 0.0005,
+    "step_size": 30,
+    "decay_rate":0.8
+  }
+}

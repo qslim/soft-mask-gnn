@@ -1,0 +1,14 @@
+{
+  "dataset_name": "COLLAB",
+  "model": "SMG",
+  "seed": 777,
+  "hyperparams": {
+    "batch_size": 128,
+    "layers": 3,
+    "hidden": 256,
+    "epochs": 151,
+    "learning_rate": 0.0005,
+    "step_size": 50,
+    "decay_rate": 0.75
+  }
+}

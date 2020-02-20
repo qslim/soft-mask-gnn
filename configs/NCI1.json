@@ -1,0 +1,14 @@
+{
+  "dataset_name": "NCI1",
+  "model": "SMG",
+  "seed": 777,
+  "hyperparams": {
+    "batch_size": 128,
+    "layers": 3,
+    "hidden": 128,
+    "epochs": 901,
+    "learning_rate": 0.0005,
+    "step_size": 2000,
+    "decay_rate": 1.0
+  }
+}
