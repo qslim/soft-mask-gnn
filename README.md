@@ -1,16 +1,19 @@
-# Soft-mask GNNs: Interpretable Hierarchical Graph Representation Learning
+# Soft-mask: Adaptive Substructure Extractions for Graph Neural Networks
 
-The code is built upon the [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric).
+[![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
+This is the code of the paper "Soft-mask: Adaptive Substructure Extractions for Graph Neural Networks".
 
 ## Prerequisites
 
-python 3.7.3
+The code is built upon [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric).
 
-pytorch 1.2
+The following packages need to be installed:
 
-pytorch-geometric 1.3.0
-
-Additional modules: numpy, easydict
+- `python 3.7.3`
+- `pytorch 1.2`
+- `pytorch-geometric 1.3.0`
+- `Additional modules: numpy, easydict`
 
 ## Running the tests
 
@@ -32,3 +35,20 @@ Additional modules: numpy, easydict
      python regression_main.py --config=configs/QM9.json
      ```
 
+## Reference
+```
+@inproceedings{yang2021softmask,
+	author = {Yang, Mingqi and Shen, Yanming and Qi, Heng and Yin, Baocai},
+	title = {Soft-Mask: Adaptive Substructure Extractions for Graph Neural Networks},
+	year = {2021},
+	url = {https://doi.org/10.1145/3442381.3449929},
+	booktitle = {Proceedings of the Web Conference 2021},
+	pages = {2058–2068},
+	numpages = {11},
+	series = {WWW'21}
+}
+```
+
+## License
+
+[MIT License](LICENSE)
